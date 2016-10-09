@@ -1,0 +1,63 @@
+#headern {
+	height: 15em !important;
+}
+
+/* Navigation Tabs */
+#div-1 {
+	height: auto !important;
+}
+
+.tab, 
+#HR2 td, 
+#HR3 td,
+#QR2 td,
+#QR3S td,
+#TR2 td,
+#TR3 td,
+#RR2 td,
+#RR3M td,
+#SR2 td,
+#SR3 td,
+#MF2 td,
+#MF3 td {
+    height: 3em;
+}
+.tab {
+    background: $color-default !important;
+    font-family: 'Ruslan Display', cursive;
+}
+/* hover */
+.tab[style*="background-color: rgb(49, 89, 154)"] {
+    background: $color-primary !important;
+}
+
+#HR2 td,
+#QR2 td,
+#TR2 td,
+#RR2 td,
+#SR2 td,
+#MF2 td {
+    background: $color-primary !important;
+}
+/* hover */
+#HR2 td[style*="background-color: rgb(61, 110, 180)"],
+#QR2 td[style*="background-color: rgb(61, 110, 180)"],
+#TR2 td[style*="background-color: rgb(61, 110, 180)"],
+#RR2 td[style*="background-color: rgb(61, 110, 180)"],
+#SR2 td[style*="background-color: rgb(61, 110, 180)"] {
+    background: $color-secondary !important;
+}
+
+#HR3 td,
+#QR3S td,
+#TR3 td,
+#RR3M td,
+#SR3 td,
+#MF3 td {
+    background: $color-secondary !important;
+}
+/* hover */
+#HR3 td[style*="background-color: rgb(61, 110, 180)"],
+#QR3S td[style*="background-color: rgb(49, 89, 154)"] {
+    background: $color-primary !important;
+}
