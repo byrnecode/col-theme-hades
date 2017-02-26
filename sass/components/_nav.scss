@@ -12,10 +12,17 @@
 #HR3 td,
 #QR2 td,
 #QR3S td,
+#QR3M td,
+#QR3B td,
+#QR3D td,
 #TR2 td,
 #TR3 td,
+#TR3E td,
 #RR2 td,
 #RR3M td,
+#RR3F td,
+#RR3T td,
+#RR3A td,
 #SR2 td,
 #SR3 td,
 #MF2 td,
@@ -50,14 +57,31 @@
 
 #HR3 td,
 #QR3S td,
+#QR3M td,
+#QR3B td,
+#QR3D td,
 #TR3 td,
+#TR3E td,
 #RR3M td,
+#RR3F td,
+#RR3T td,
+#RR3A td,
 #SR3 td,
 #MF3 td {
     background: $color-secondary !important;
 }
 /* hover */
 #HR3 td[style*="background-color: rgb(61, 110, 180)"],
-#QR3S td[style*="background-color: rgb(49, 89, 154)"] {
-    background: $color-primary !important;
+#QR3S td[style*="background-color: rgb(49, 89, 154)"],
+#QR3M td[style*="background-color: rgb(49, 89, 154)"],
+#QR3B td[style*="background-color: rgb(49, 89, 154)"],
+#QR3D td[style*="background-color: rgb(49, 89, 154)"],
+#TR3E td[style*="background-color: rgb(49, 89, 154)"],
+#RR3F td[style*="background-color: rgb(49, 89, 154)"],
+#RR3T td[style*="background-color: rgb(49, 89, 154)"] {
+    background: teal !important;
+}
+
+#div-1 td[style*="font-style: italic"] {
+    border-bottom: 1px solid red;
 }
